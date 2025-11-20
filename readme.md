@@ -4,65 +4,67 @@
 
 ## Descripción General
 
-Este proyecto es un sistema completo de **Inventario y Ventas** desarrollado en **Java** utilizando arquitectura **Modelo-Vista-Controlador (MVC)**. Implementa conceptos avanzados de **Programación Orientada a Objetos (POO)** como herencia, polimorfismo, encapsulación y abstracción.
+Este proyecto contiene **12 ejercicios** del taller de **Programación Orientada a Objetos (POO)** en **Java**. Los ejercicios están divididos en dos categorías: 5 ejercicios de POO puro y 7 ejercicios usando interfaz gráfica con Swing. 
 
-El sistema permite:
-- ✅ Gestión de productos (CRUD completo)
-- ✅ Procesamiento de ventas en tiempo real
-- ✅ Generación de reportes dinámicos
-- ✅ Interfaz gráfica profesional con Swing
-- ✅ Sincronización automática entre inventario y ventas
+Cada ejercicio implementa conceptos como herencia, polimorfismo, encapsulación, abstracción y patrones de diseño.
 
 ## Estructura del Proyecto
 
 ```
 src/main/java/com/example/
-├── modelo/
-│   ├── Producto.java          # Clase modelo para productos
-│   ├── Cliente.java           # Clase modelo para clientes
-│   ├── ItemVenta.java         # Clase modelo para items de venta
-│   ├── Venta.java             # Clase modelo para ventas
-│   └── Inventario.java        # Singleton que gestiona todo
-├── vista/
-│   ├── VentanaPrincipal.java  # Ventana principal con sidebar
-│   ├── PanelInventario.java   # Panel de gestión de inventario
-│   ├── PanelPOS.java          # Panel de punto de venta
-│   └── PanelReportes.java     # Panel de reportes
-├── controlador/
-│   ├── ControladorPrincipal.java     # Orquesta los paneles
-│   ├── ControladorInventario.java    # Controla inventario
-│   ├── ControladorPos.java           # Controla ventas
-│   └── ControladorReportes.java      # Controla reportes
-└── Main.java                  # Punto de entrada
+├── withoutSwing/
+│   ├── Ejercicio_one/
+│   ├── Ejercicio_two/
+│   ├── Ejercicio_three/
+│   ├── Ejercicio_four/
+│   ├── Ejercicio_five/
+│   └── Main.java
+├── withSwing/
+│   ├── Calculadora/
+│   ├── Login/
+│   ├── RegistroEstudiante/
+│   ├── Sistema_De_Gestion.../
+│   ├── Sistema_Vehiculos_Us.../
+│   └── SistemaVentasVehicul.../
+└── Main.java
 ```
 
 ## Conceptos de POO Implementados
 
-### 1. **Encapsulación**
-Cada clase encapsula sus datos privados con getters y setters públicos, protegiendo la integridad de los datos.
+### 1. **Herencia**
+Cada ejercicio implementa clases padre que son extendidas por subclases especializadas. Ejemplo: Habitacion → HabitacionSimple, HabitacionDoble, Suite.
 
-### 2. **Herencia y Polimorfismo**
-Los controladores heredan métodos comunes y se especializan en sus funciones específicas. El patrón MVC permite polimorfismo en la presentación.
+### 2. **Polimorfismo**
+Los métodos redefinidos en las subclases permiten comportamientos diferentes. Ejemplo: calcularCosto() varía según el tipo de habitación.
 
-### 3. **Singleton Pattern**
-`Inventario.getInstance()` implementa el patrón Singleton para garantizar una única instancia en toda la aplicación.
+### 3. **Encapsulación**
+Los atributos son privados y se accede a ellos mediante getters y setters públicos.
 
 ### 4. **Abstracción**
-Las vistas abstraen la complejidad de Swing, los controladores abstraen la lógica de negocio.
+Las clases padre definen la interfaz general que las subclases implementan según su contexto específico.
 
-### 5. **Collections y Streams**
-Uso de `ArrayList`, `List` y operaciones funcionales con `stream()` para filtrado y búsqueda de datos.
+### 5. **Collections**
+Uso de ArrayList y List para almacenar y gestionar múltiples objetos en cada ejercicio.
 
-## Ejercicios Grabados
+## Ejercicios Implementados
 
-Se grabaron **4 ejercicios principales** que demuestran los conceptos fundamentales:
+El proyecto contiene **12 ejercicios** divididos en dos categorías:
 
-1. **Sistema de Reservas de Hotel** - Herencia y polimorfismo básico
-2. **Sistema de Alquiler de Vehículos** - Cálculos dinámicos según tipo
-3. **Sistema de Ventas (CRUD)** - Operaciones completas de datos
-4. **Sistema de Reportes** - Análisis y agregación de datos
+### Ejercicios sin Swing (POO Puro)
+1. Sistema de Reservas de Hotel
+2. Sistema de Mantenimiento de Dispositivos
+3. Sistema de Alquiler de Vehículos
+4. Sistema de Ventas de Tienda Virtual
+5. Sistema de Gestión de Cursos en Línea
 
-> **Nota:** Los ejercicios restantes siguen el mismo patrón, variando solo la lógica de negocio.
+### Ejercicios con Swing (Interfaz Gráfica)
+1. Sistema de Gestión de Empleados
+2. Calculadora Básica
+3. Registro de Estudiantes
+4. Sistema de Ventas de Vehículos Nuevos
+5. Sistema de Login
+6. Sistema de Venta de Vehículos Usados
+7. Sistema Integrado de Inventario y Ventas (SynchroSale)
 
 ## Funcionalidades Principales
 
@@ -158,7 +160,7 @@ Para visualizar los diagramas UML completos de cada clase y sus relaciones, ingr
 
 ## Video Explicativo
 
-Se incluye un video grabado explicando los 4 ejercicios principales y cómo funcionan los conceptos de POO en este proyecto.
+Se incluye video grabado explicando los conceptos principales de POO implementados en los ejercicios.
 
 ## Mejoras Futuras
 
@@ -168,12 +170,11 @@ Se incluye un video grabado explicando los 4 ejercicios principales y cómo func
 - [ ] Sistema de permisos por rol
 - [ ] Historial de cambios en inventario
 
-
 ## Autor
 
-**Nombre:** Samuel javier vargas cardenas  
-**Fecha:** 2025  
-**Institución:** Unicolombo
+**Nombre:** [Tu Nombre]  
+**Fecha:** 2024  
+**Institución:** [Tu Universidad]
 
 ## Licencia
 
