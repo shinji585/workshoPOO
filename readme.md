@@ -172,9 +172,9 @@ Se incluye video grabado explicando los conceptos principales de POO implementad
 
 ## Autor
 
-**Nombre:** [Tu Nombre]  
-**Fecha:** 2024  
-**Institución:** [Tu Universidad]
+**Nombre:** Samuel javier vargas cardenas
+**Fecha:** 2025
+**Institución:** Unicolombo
 
 ## Licencia
 
