@@ -168,11 +168,12 @@ Se incluye un video grabado explicando los 4 ejercicios principales y cómo func
 - [ ] Sistema de permisos por rol
 - [ ] Historial de cambios en inventario
 
+
 ## Autor
 
-**Nombre:** [Tu Nombre]  
-**Fecha:** 2024  
-**Institución:** [Tu Universidad]
+**Nombre:** Samuel javier vargas cardenas  
+**Fecha:** 2025  
+**Institución:** Unicolombo
 
 ## Licencia
 
